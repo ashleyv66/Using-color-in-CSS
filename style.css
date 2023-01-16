@@ -1,0 +1,39 @@
+* {
+    font-family: 'Gantari', sans-serif;
+}
+
+.mono {
+    background-color:lightgray;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+body {
+    background-color: skyblue;
+}
+h1, h2, p {
+    text-align: center;
+}
+
+table {
+    border: solid 2px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 5px;
+}
+td {
+    border: solid 1px black;
+    background-color: lightskyblue;
+}
+
+th {
+    color:aliceblue;
+    background-color: darkblue;
+}
+
+.link {
+    color:darkblue;
+    background-color: orange;
+}

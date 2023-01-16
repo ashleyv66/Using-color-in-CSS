@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css"rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Sofia+Sans&display=swap" rel="stylesheet">  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using color in CSS</title>
+</head>
+<h1>Using <span class="mono">color</span> in CSS (to add colour!)</h1>
+<body>
+
+    <h2>Some commonly used properties that allow you to set colours</h2>
+
+    <table> <!--Commonly used properties table-->
+        <thead>
+            <tr>
+                <th>Property name</th>
+                <th>Description</th>
+                <th>Syntax</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="mono">color</td>
+                <td>Set the foreground colour of an element (Including text)</td>
+                <td class="mono">color: orange;</td>
+            </tr>
+            <tr>
+                <td class="mono">background-color</td>
+                <td>Set the background colour of an element</td>
+                <td class="mono">background-color: #12F72A</td>
+            </tr>
+            <tr>
+                <td class="mono">border-color</td>
+                <td>Set the colour of a border where specified</td>
+                <td class="mono">border-color: rgb(78, 236, 159)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Ways to specify a colour in CSS</h2>
+
+    <table> <!--Colour specification table-->
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Explanation</th>
+                <th>Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Keywords</td>
+                <td>Specific color keywords supported in browsers</td>
+                <td class="mono">orange</td>
+            </tr>
+            <tr>
+                <td>Hexadecimal</td>
+                <td>Hexadecimal number representing a colour</td>
+                <td class="mono">#FFA500</td>
+            </tr>
+            <tr>
+                <td>RGB value*</td>
+                <td>Specifies levels of Red, Blue and Green (0 - 255)</td>
+                <td class="mono">rgb(255, 165, 0)</td>
+            </tr>
+            <tr>
+                <td>HSL value*</td>
+                <td>Specifies values of Hue, Saturation and Lightness</td>
+                <td class="mono">hsl(39, 100, 50)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>*An optional 'alpha' (transparency) value can be added to RGB or HSL by using <a class="mono">rgba()</a> or <a class="mono">hsla()</a>
+    </p>
+    <p>E.g.<a class="mono">rgba(255, 165, 0, 0.5)</a> where the alpha value is between 0 and 1.</p>
+
+    <footer>
+        <p>Here's a link to a useful <a class="link" href="https://www.rapidtables.com/convert/color/index.html" target="_blank">colour conversion</a> web site.</p>
+    </footer>
+
+    
+</body>
+</html>
